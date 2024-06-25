@@ -56,7 +56,7 @@ Where `{limit}` is an int value ranging fom 1-10 (use `10`)
 Where `{offset}` is an int value ranging from 0-* (use `0`)
 
 ### Auth
-POST /auth/login
+`POST /auth/login`
 
 ### Events
 `GET /events`
@@ -118,7 +118,7 @@ each test method can be decorated with `[AutoMoqData]` and `[InlineAutoMoqData]`
 ## Approach
 
 I tried to go for a clean architecture approach with vertical slices using the REPR Pattern for the Apis using 
-`FastEnpionts` and then the CQRS with the Mediator Pattern using `MediatR` for the application.
+`FastEnpoints` and then the CQRS with the Mediator Pattern using `MediatR` for the application.
 
 
 ## Blazor UI
